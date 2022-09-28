@@ -1,0 +1,105 @@
+:root{
+    --CustomBlue: rgb(4, 121, 237);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Utilities */
+.padding-X-Axis{
+    padding:0 200px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--CustomBlue);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Nav bar */
+.nav-bar {
+    background-color: rgba(31, 41, 55);
+    display: flex;
+
+    padding: 10px 10px;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    color: rgba(249, 250, 248);
+    padding-left: 200px;
+
+    font-family: 'Righteous', cursive;
+    font-size: 3rem;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 180px;
+
+    font-size: 1.5rem;
+    font-family: 'Fira Sans Condensed', sans-serif;
+
+    list-style: none;
+}
+
+.nav-bar a {
+    color: rgb(229, 231, 235);
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Showcase */
+.showcase{
+    padding-top: 6%;
+    background-color: rgba(31, 41, 55);
+
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+
+}
+
+.showcase-text{
+    padding-left: 5%;
+
+    padding-bottom: 150px;
+    flex-basis: 2;
+    
+}
+
+.showcase h1{
+    color: rgb(229, 231, 235);
+    font-family: 'Secular One', sans-serif;
+    font-size: 3rem;
+}
+
+.showcase p{
+    color: rgb(229, 231, 235);
+    font-size: 1.2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.showcase-btn{
+    margin: 6% auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.showcase-img img{
+    height: 85%;
+    width: 80%;
+    
+    
+    border-radius: 10px;
+
+    
+}
